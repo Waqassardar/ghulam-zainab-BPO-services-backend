@@ -8,7 +8,7 @@ app.use(cors());
 
 // Set FRONTEND_URL in Vercel env vars to your new frontend domain.
 // The fallback is the old URL, so update it if the frontend is redeployed elsewhere.
-const YOUR_DOMAIN = process.env.FRONTEND_URL || "https://bahjat-bpo-services.vercel.app/";
+const YOUR_DOMAIN = process.env.FRONTEND_URL || "https://maddy-bpo-services.vercel.app/";
 
 app.get('/', (req, res) => {
   res.send('Maddy BPO Services backend is live ✅');
